@@ -1,0 +1,31 @@
+{
+  "name": "frontend-hiring-challenge",
+  "version": "1.0.0",
+  "description": "Leap test",
+  "main": "index.js",
+  "repository": "",
+  "author": "",
+  "license": "",
+  "private": false,
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.*",
+    "babel-loader": "7.1.*",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.*",
+    "css-loader": "2.1.*",
+    "html-loader": "0.5.*",
+    "html-webpack-plugin": "3.2.*",
+    "style-loader": "0.23.*",
+    "webpack": "4.29.*",
+    "webpack-cli": "3.2.*",
+    "webpack-dev-server": "3.1.*"
+  }
+}
