@@ -5,14 +5,17 @@ The goal of this test is to make you code a small ReactJS app. We have prepared 
 The app will have two different components:
 - **Activity Feed** - simple list of calls
 - **Activity Detail** - detail of a call
-- **Archive** - the final user should be able to archive a call. The call will no longer be displayed on the Activity Feed.
+- **Archive** - the final user should be able to archive (and unarchive) a call. Archived calls will no longer be displayed on the Activity Feed and should have a separate Archived Tab.
 
 Show us what you can do in 24 hours. You will be assessed on the following parameters: 
 - Focus on design (Pay attention to the UI/UX and transitions)
 - Best React Practices
 - Code Readability and Maintainability
 
+## Submission
 After you're done with the assignment, please submit a link to the **GitHub/Bitbucket repository** (make sure it's public) with your code **AND** a deployment link where our recruiters can interact with the live version. You can use freely available tools like **Netlify, Vercel, Heroku, etc** to deploy your React application.
+
+You should email both the links to our recruiters with the subject line **Full Stack Developer Assessment - [Your Name]**
 
 **Note:** Submissions without a valid repository and deployment link will be removed from any further consideration.
 
@@ -23,7 +26,7 @@ To give you an idea, here's what our app looks like:
 
 ## Installation
 
-We're using [yarn](https://yarnpkg.com) here:
+We're using [yarn](https://yarnpkg.com) here (but you can use npm):
 
 ```
 yarn install
