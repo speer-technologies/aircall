@@ -1,0 +1,14 @@
+.detailsContainer{
+  margin: 15px;
+}
+.detailBox{
+  padding: 10px 0px;
+  border-bottom: 1px lightgrey solid;
+}
+.fieldName{
+  font-weight: bold;
+}
+
+.fieldValue{
+
+}

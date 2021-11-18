@@ -1,0 +1,43 @@
+.feedRow {
+	display: flex;
+	padding: 15px;
+	/* justify-content: space-between; */
+	align-items: center;
+	align-content: center;
+	border-bottom: 1px lightgray solid;
+}
+.recipientContainer {
+	flex: 4;
+}
+.recipient {
+	font-weight: bold;
+	font-size: large;
+	display: block;
+}
+.icon {
+	flex: 1;
+}
+.duration {
+	flex: 1;
+	font-size: 11px;
+	align-self: end;
+}
+.timestamp {
+	flex: 2;
+}
+.date {
+	/* display: block; */
+	font-size: 11px;
+}
+.time {
+	/* display: block; */
+	font-size: 11px;
+}
+.archiveSection {
+	/* height:30px; */
+	background-color: lightgray;
+	text-align: center;
+	padding: 20px 0px;
+	font-weight: bold;
+	box-shadow: 5px grey;
+}
