@@ -8,7 +8,7 @@
   "license": "",
   "private": false,
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
+    "start": "webpack-dev-server --mode development --open"
   },
   "dependencies": {
     "axios": "^0.25.0",
