@@ -12,6 +12,7 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
+    "axios": "^0.25.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-icons": "^4.3.1"
