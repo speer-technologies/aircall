@@ -15,7 +15,8 @@
     "axios": "^0.25.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
-    "react-icons": "^4.3.1"
+    "react-icons": "^4.3.1",
+    "timeago-react": "^3.0.4"
   },
   "devDependencies": {
     "babel-core": "6.26.*",
