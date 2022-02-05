@@ -51,3 +51,38 @@ footer button:hover {
     text-shadow: 0 1px 2px #283D3B;
   animation: jiggle 5s infinite ease-in;
 }
+
+.midButton:hover {
+  box-shadow: 0 0 5px 5px #f0f4f5;
+ }
+ 
+ @keyframes jiggle {
+   45%, 65% {
+     transform: scale(1.0, 1.0)
+   }
+   50% {
+     transform: scale(1.1, 0.9)
+   }
+   55% {
+     transform: scale(0.9, 1.1) translate(0, -5px)
+   }
+   60% {
+     transform: scale(1.0, 1.0) translate(0, -5px)
+   }
+ }
+ @keyframes shake {
+   10%, 90% {
+     transform: translate3d(-1px, 0, 0);
+   }
+   20%, 80% {
+     transform: translate3d(2px, 0, 0);
+   }
+   
+   30%, 50%, 70% {
+     transform: translate3d(-2px, 0, 0);
+   }
+   40%, 60% {
+     transform: translate3d(2px, 0, 0);
+ }
+ }
+ 
