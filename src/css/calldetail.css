@@ -45,6 +45,7 @@
   display: flex;
   justify-content: space-between;
   height: 30%;
+  margin-left: 115px;
 }
 
 .buttonContainer button {
@@ -56,7 +57,7 @@
   align-items: center;
   background: transparent;
   border: none;
-  border-radius: 50%;
+  border-radius: 35px;
   color: white;
   background-color: #b474c9;
 }

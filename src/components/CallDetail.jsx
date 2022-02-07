@@ -43,14 +43,7 @@ const CallDetail = (props) => {
         </div>
       </div>
       <div className="buttonContainer">
-        <button onClick={returnHome}>
-          <HiAnnotation size={30} />
-          <p>SMS</p>
-        </button>
-        <button onClick={returnHome}>
-          <ImPhone size={30} />
-          <p>CALL BACK</p>
-        </button>
+      
         {!view.is_archived && (
           <button
             onClick={() => {
