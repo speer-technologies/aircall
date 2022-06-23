@@ -13,6 +13,7 @@
   width: 376px;
   height: 666px;
   z-index: 100;
+  
 
   background: white;
   border-radius: 3px;
@@ -21,5 +22,10 @@
 
 #app .container-view {
   padding: 20px;
+  background-color: brown;
+}
+
+#app .container .call-log{
+  overflow-y: auto;
 }
 

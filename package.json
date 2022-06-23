@@ -12,8 +12,20 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1"
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.5",
+    "@mui/styled-engine-sc": "^5.8.0",
+    "axios": "^0.27.2",
+    "font-awesome": "^4.7.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "babel-core": "6.26.*",
@@ -25,7 +37,10 @@
     "html-webpack-plugin": "3.2.*",
     "style-loader": "0.23.*",
     "webpack": "4.29.*",
-    "webpack-cli": "3.2.*",
-    "webpack-dev-server": "3.1.*"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.3"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
   }
 }
