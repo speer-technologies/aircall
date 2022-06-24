@@ -38,12 +38,12 @@
 	align-items: center;
 }
 
-.detail h5 {
+.detail h4 {
 	margin-bottom: 3px;
 	margin-top: 0;
 }
 
-.detail h6{
+.detail h5{
 	margin-top: 3px;
 	margin-bottom: 0;
 	color: darkgrey;
@@ -60,7 +60,7 @@
 	display: block;
 }
 
-.calls h6 {
+.calls h5 {
 	color: darkgrey;
 	display: flex;
 	align-items: center;

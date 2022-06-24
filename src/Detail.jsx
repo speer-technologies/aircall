@@ -13,7 +13,7 @@ function moveCall(call, update) {
   });
 }
 
-function Call(props) {
+function Detail(props) {
   return (
     <div className="call">
       <BsFillPersonFill/>
@@ -45,4 +45,4 @@ function Call(props) {
   );
 }
 
-export default Call;
+export default Detail;
