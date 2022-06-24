@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BsFillPersonFill, BsArrowLeftCircle } from "react-icons/bs";
 
-// Function should be moved to parent component idealy
 function moveCall(call, update) {
   fetch("https://aircall-job.herokuapp.com/activities/" + String(call.id), {
     method: "POST",
