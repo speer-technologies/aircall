@@ -13,7 +13,6 @@
   width: 376px;
   height: 666px;
   z-index: 100;
-
   background: white;
   border-radius: 3px;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, .9);
@@ -23,3 +22,132 @@
   padding: 20px;
 }
 
+.calls li {
+	list-style: none;
+	display: flex;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 15px;
+	border: 1px solid #E8E8E8;
+	cursor: pointer;
+	justify-content: space-between;
+}
+
+.left{
+	display: flex;
+	align-items: center;
+}
+
+.detail h5 {
+	margin-bottom: 3px;
+	margin-top: 0;
+}
+
+.detail h6{
+	margin-top: 3px;
+	margin-bottom: 0;
+	color: darkgrey;
+	font-weight: 400;
+}
+
+.calls button {
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	top: 20%;
+	right: 5%;
+	position: absolute;
+	display: block;
+}
+
+.calls h6 {
+	color: darkgrey;
+	display: flex;
+	align-items: center;
+	margin: 0;
+	font-weight: 500;
+}
+
+.calls svg {
+	display: inline-block;
+	margin: 0 5px;
+	color: darkgrey;
+}
+
+.calls svg line, polyline {
+	color: #fe5a1d;
+}
+
+.calls div.date {
+	color: darkgrey;
+	text-align: center;
+}
+
+.call {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: wrap;
+}
+
+.call svg {
+	width: 25px;
+	height: 25px;
+}
+
+.call h5{
+	margin: 4px 0;
+	font-weight: 500;
+	color: darkgrey;
+}
+
+.call .call-nav {
+	width: 100%;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+}
+
+.call-nav button {
+	border: 1.5px solid;
+	border-radius: 5px;
+	background: white;
+	cursor: pointer;
+}
+
+nav{
+	text-align: center;
+}
+
+nav button{
+	background-color: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+	margin: 10px 25px;
+}
+
+nav div span {
+	width: 20%;
+	height: 2px;
+	display: block;
+	background: #fe5a1d;
+	margin: auto;
+
+}
+
+nav div span.left {
+	transform: translateX(-70%);
+}
+
+nav div span.right {
+	transform: translateX(70%);
+}
+
+nav div span {
+	transition: 0.2s ease-in-out;
+}
+
+ul {
+	transition: all 0.2s ease-in;
+}
