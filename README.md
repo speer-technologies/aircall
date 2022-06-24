@@ -60,3 +60,4 @@ As you can see, it's hosted on a free Heroku server, which means that the first 
 - **duration** - duration of a call (in seconds)
 - **is_archived** - call is archived or not
 - **call_type** - can be a `missed`, `answered` or `voicemail` call.
+# Aircall
