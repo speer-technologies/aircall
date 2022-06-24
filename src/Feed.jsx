@@ -1,22 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { TbPhoneIncoming } from "react-icons/tb";
 
-// function Seperator(props) {
-//   if (
-//     props.index == 0 ||
-//     props.feed[props.index].time[0].toLocaleDateString() !=
-//       props.feed[props.index - 1].time[0].toLocaleDateString()
-//   ) {
-//     return (
-//       <div className="date">
-//         <h3>{props.feed[props.index].time[0].toLocaleDateString()}</h3>
-//       </div>
-//     );
-//   }
-//   return <span></span>;
-// }
-
-// The component used for retrieving, sorting, and rendering calls.
 function Feed(props) {
   const feed = props.feed;
   let entries;
