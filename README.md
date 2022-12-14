@@ -35,19 +35,19 @@ yarn start
 
 ### Routes
 
-Here is the API address: https://aircall-job.herokuapp.com.
+Here is the API address: https://cerulean-marlin-wig.cyclic.app/
 
-As you can see, it's hosted on a free Heroku server, which means that the first time you will fetch the API, it will take few seconds to answer.
+The API is hosted on a free server, which is why the first time you call the API, it will throw an error. The server goes to sleep if there hasn't been any activity for a while, but after 30-60 seconds of the first call, it should work as expected. Please reach out to us in case it doesn't.
 
-- **GET** - https://aircall-job.herokuapp.com/activities: get calls to display in the Activity Feed
-- **GET** - https://aircall-job.herokuapp.com/activities/:id: retrieve a specific call details
-- **POST** - https://aircall-job.herokuapp.com/activities/:id: update a call. The only field updatable is `is_archived (bool)`. You'll need to send a JSON in the request body:
+- **GET** - BASE_URL/activities: get calls to display in the Activity Feed
+- **GET** - BASE_URL/activities/:id: retrieve a specific call details
+- **PATCH** - BASE_URL/activities/:id: update a call. The only field updatable is `is_archived (bool)`. You'll need to send a JSON in the request body:
 ```
 {
   is_archived: true
 }
 ```
-- **GET** - https://aircall-job.herokuapp.com/reset: Reset all calls to initial state (usefull if you archived all calls).
+- **PATCH** - BASE_URL/reset: Reset all calls to initial state (usefull if you archived all calls).
 
 ### Call object
 
