@@ -11,15 +11,18 @@ const CallList = () => {
   // Fetch all calls
   useEffect(() => {
     axios
-      .get('https://cerulean-marlin-wig.cyclic.app/activities')
+      .get(
+        'https://charming-bat-singlet.cyclic.app/https://cerulean-marlin-wig.cyclic.app/activities'
+      )
       .then((res) => {
-        console.log(res);
+        console.log(res.data);
       })
       .catch((error) => {
         console.log(`The Error is: ${error}`);
       });
   }, []);
-  return <div>test</div>;
+
+  return <div></div>;
 };
 
 export default CallList;
