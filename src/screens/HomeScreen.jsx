@@ -2,7 +2,7 @@
 import React from 'react';
 
 //Internal Modules
-import CallList from '../components/CallList';
+import CallList from '../components/CallList.jsx';
 
 const HomeScreen = () => {
   return (

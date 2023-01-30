@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Header from './Header.jsx';
-import HomeScreen from './screens/HomeScreen.js';
+import HomeScreen from './screens/HomeScreen.jsx';
 
 const App = () => {
   return (

@@ -2,7 +2,7 @@
 import React from 'react';
 
 //Internal Modules
-import CallListItem from './CallListItem';
+import CallListItem from './CallListItem.jsx';
 
 const CallList = () => {
   return (
