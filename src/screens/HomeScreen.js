@@ -1,11 +1,15 @@
 //External Modules
-
-//Internal Modules
-
 import React from 'react';
 
+//Internal Modules
+import CallList from '../components/CallList';
+
 const HomeScreen = () => {
-  return <div>HomeScreen</div>;
+  return (
+    <div>
+      <CallList />
+    </div>
+  );
 };
 
 export default HomeScreen;

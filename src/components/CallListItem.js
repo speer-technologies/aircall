@@ -1,5 +1,5 @@
 //External Modules
-
+import React from 'react';
 //Internal Modules
 
 const CallListItem = () => {
