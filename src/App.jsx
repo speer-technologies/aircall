@@ -1,14 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { AppShell, MantineProvider } from '@mantine/core';
 
-import Header from './Header.jsx';
+import AppHeader from './components/AppHeader.jsx';
+import AppFooter from './components/AppFooter.jsx';
 
 const App = () => {
   return (
-    <div className='container'>
-      <Header/>
-      <div className="container-view">Some activities should be here</div>
-    </div>
+    <MantineProvider withNormalizeCSS withGlobalStyles>
+      <AppShell
+        fixed={false}
+        header={<AppHeader/>}
+        footer={<AppFooter />}
+        style={{
+          width: 400,
+          height: 700,
+          margin: 'auto',
+        }}
+        zIndex={100}
+      >
+        <div className='container'>
+          <div className="container-view">Some activities should be here</div>
+        </div>
+      </AppShell>
+    </MantineProvider>
   );
 };
 
