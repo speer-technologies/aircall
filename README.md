@@ -9,7 +9,7 @@ The app will have the following features:
 - A button to archive all calls in the activity feed
 - A button to unarchive all calls in the archived calls tab
 
-Show us what you can do in 24 hours. You will be assessed on the following parameters: 
+Show us what you can do in 48 hours. You will be assessed on the following parameters: 
 - Focus on design (Pay attention to the UI/UX and transitions)
 - Best React Practices
 - Code Readability and Maintainability
