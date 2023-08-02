@@ -1,38 +1,44 @@
 {
-  "name": "aircall",
-  "version": "1.0.0",
-  "description": "Leap test",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/changLiCoding/aircall.git"
-  },
-  "author": "changli",
-  "license": "ISC",
-  "private": false,
-  "scripts": {
-    "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production"
-  },
-  "dependencies": {
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1"
-  },
-  "devDependencies": {
-    "babel-core": "6.26.*",
-    "babel-loader": "7.1.*",
-    "babel-preset-env": "1.7.0",
-    "babel-preset-react": "6.24.*",
-    "css-loader": "2.1.*",
-    "html-loader": "0.5.*",
-    "html-webpack-plugin": "3.2.*",
-    "style-loader": "0.23.*",
-    "webpack": "4.29.*",
-    "webpack-cli": "3.2.*",
-    "webpack-dev-server": "3.1.*"
-  },
-  "bugs": {
-    "url": "https://github.com/changLiCoding/aircall/issues"
-  },
-  "homepage": "https://github.com/changLiCoding/aircall#readme"
+	"name": "aircall",
+	"version": "1.0.0",
+	"description": "Leap test",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/changLiCoding/aircall.git"
+	},
+	"author": "changli",
+	"license": "ISC",
+	"private": false,
+	"scripts": {
+		"start": "webpack-dev-server --mode development --open",
+		"build": "webpack --mode production"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.11.1",
+		"@emotion/styled": "^11.11.0",
+		"@mui/icons-material": "^5.14.3",
+		"@mui/material": "^5.14.3",
+		"@reduxjs/toolkit": "^1.9.5",
+		"axios": "^1.4.0",
+		"react": "^18.1.0",
+		"react-dom": "^18.1.0"
+	},
+	"devDependencies": {
+		"babel-core": "6.26.*",
+		"babel-loader": "7.1.*",
+		"babel-preset-env": "1.7.0",
+		"babel-preset-react": "6.24.*",
+		"css-loader": "2.1.*",
+		"html-loader": "0.5.*",
+		"html-webpack-plugin": "3.2.*",
+		"style-loader": "0.23.*",
+		"webpack": "4.29.*",
+		"webpack-cli": "3.2.*",
+		"webpack-dev-server": "3.1.*"
+	},
+	"bugs": {
+		"url": "https://github.com/changLiCoding/aircall/issues"
+	},
+	"homepage": "https://github.com/changLiCoding/aircall#readme"
 }
