@@ -1,8 +1,20 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 
+import { useGetAllActivitiesQuery } from "../../features/activitiesApi.js";
+
 function Body() {
 	const activities = useSelector((state) => state.activities);
+
+	// const { data, error, isLoading } = useGetAllActivitiesQuery();
+
+	// console.log(data);
+
+	// const { data } = useGetAllActivites();
+
+	const { data } = useGetAllActivitiesQuery();
+
+	console.log(data);
 
 	console.log(activities.activities);
 
