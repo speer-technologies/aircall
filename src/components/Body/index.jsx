@@ -12,7 +12,7 @@ function Body() {
 
 	// const { data } = useGetAllActivites();
 
-	const { data } = useGetAllActivitiesQuery();
+	const { data, isLoading } = useGetAllActivitiesQuery();
 
 	console.log(data);
 
@@ -22,7 +22,29 @@ function Body() {
 		<div>
 			Body
 			<h2>Activities</h2>
-			{activities.activities.map((activity) => (
+			{isLoading ? (
+				<div>Loading...</div>
+			) : (
+				<div>
+					{data.map((activity) => (
+						<div key={activity.id}>
+							<div>
+								Direction:
+								{activity.direction}
+							</div>
+							<div>
+								From:
+								{activity.from}
+							</div>
+							<div>
+								To:
+								{activity.to}
+							</div>
+						</div>
+					))}
+				</div>
+			)}
+			{/* {activities.activities.map((activity) => (
 				<div key={activity.id}>
 					<div>
 						Direction:
@@ -37,7 +59,7 @@ function Body() {
 						{activity.to}
 					</div>
 				</div>
-			))}
+			))} */}
 		</div>
 	);
 }
