@@ -1,6 +1,6 @@
 import { CreateApi, fetchBaseQuery } from "@reduxjs/toolkit/dist/query";
 
-const activitiesApi = CreateApi({
+const activitiesQuery = CreateApi({
 	reducerPath: "activitiesApi",
 	baseQuery: fetchBaseQuery({
 		baseUrl: "https://cerulean-marlin-wig.cyclic.app/",
@@ -12,4 +12,4 @@ const activitiesApi = CreateApi({
 	}),
 });
 
-export const { useGetAllActivitiesQuery } = activitiesApi;
+export const { useGetAllActivitiesQuery } = activitiesQuery;
