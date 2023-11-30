@@ -8,8 +8,8 @@
   "license": "",
   "private": false,
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --openssl-legacy-provider",
-    "build": "webpack --mode production --openssl-legacy-provider"
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "@material-ui/core": "3.9.2",
