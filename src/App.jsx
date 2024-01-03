@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className='container'>
       <Header/>
-      <div className="container-view">Some activities should be here</div>
+      <div className="container-view">Some change activities should be here</div>
     </div>
   );
 };
