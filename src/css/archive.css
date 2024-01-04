@@ -1,0 +1,15 @@
+/* archive.css */
+.heading {
+    display: flex;
+    /* Your styles here */
+    color: #575757;
+    font-size: 13px;
+    font-weight: 600;
+    gap: 15px;
+    align-items: center;
+    margin: 0px 15px 20px 25px;
+  }
+.icon{
+    height: 20px;
+    width: 20px;
+}

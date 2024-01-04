@@ -20,6 +20,7 @@
 }
 
 #app .container-view {
-  padding: 20px;
+  padding: 5px 15px 20px 15px;
+  height: 510px;
 }
 

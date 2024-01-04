@@ -1,0 +1,29 @@
+.bottom-navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+  }
+.middle-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    top: 6px;
+    background-color: #45C021;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+.normal-icon{
+    position: relative;
+    font-size: 20px;
+    top: 40px;
+    color: #333;
+    height: fit-content;
+}
+.active {
+  border-bottom: 7px solid #FC5624;
+}
+  

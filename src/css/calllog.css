@@ -1,0 +1,72 @@
+.log-container{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    font-size: 20px;
+    color: black;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden; 
+}
+/* Hide scrollbar for webkit-based browsers */
+.log-container::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  
+  .log-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+.call-row{
+    /* background-color: red; */
+    width: 100%;
+    height: 50px;
+    margin: 10px 15px 10px 15px;
+    display: flex;
+    align-items: center;
+}
+.number{
+    display: flex;
+    font-size: 13px;
+    font-weight: 600;
+    color:#515151;
+    margin-left: 14px;
+}
+.via{
+    font-size: 13px;
+    font-weight: 300;
+    color:#616161;
+    margin-left: 14px;
+}
+.time {
+    margin-left: auto;
+    font-size: 10px;
+    color: #515151;
+  }
+.divider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    font-weight: 600;
+    color: #797979;
+    margin: 0px;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+.count-component {
+    display: flex;
+    position: relative;
+    top:-3px;
+    font-size: 10px;
+    background-color: #F64F1F;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    padding: 3px;
+    border-radius: 50%;
+    color: white;
+    font-weight: 700;
+    height: 12px;
+    width: 12px;
+    /* display: inline-block; */
+  }
