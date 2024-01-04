@@ -1,0 +1,146 @@
+.screen_card{
+    height: 100%;
+    overflow-x: scroll;
+    background-color: whitesmoke;
+}
+
+.call_card{
+    min-height: 50px;
+    border: 1px solid lightgray;
+    width: 90%;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+}
+
+.call_card_flex{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.icons{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call_info_outter{
+    width: 70%;
+    border: 0.25px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.call_info_from_to{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 37.5%;
+}
+
+.call_info_mid{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 25%;
+    
+}
+
+.voice_type_text{
+    font-size: 8px;
+    color: gray;
+}
+
+.center_flex_column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.all_call_top{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 3;
+}
+
+.archive_all_button{
+    width: 60px;
+    border: 0.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    justify-self: flex-end;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px;
+
+}
+
+.archived_call_top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.archived_call_text{
+    width: 80%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.reset_outter{
+    width: 55px;
+    border: 0.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5;
+    justify-self: flex-end;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.special_details_card{
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: wheat;
+}
+
+.footer_outter{
+    height: 50px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer_section{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_text{
+    font-size: 10px;
+    color: gray;
+}
