@@ -1,17 +1,19 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import './css/common.css'
 import SpecificCallDetails from './SpecificCallDetails';
 import { red } from '@mui/material/colors';
-import { Unarchive, CallMissed, Voicemail, Call, ArrowRightAlt} from '@mui/icons-material'
+import { Unarchive, CallMissed, Voicemail, Call, ArrowRightAlt } from '@mui/icons-material'
 
 
 const ArchivedCalls = ({ activities, archiveAndUnArchiveTheCall, reset }) => {
 
     const [callId, setCallId] = useState(-1)
+    const [archivedCalls, setArchivedCalls] = useState([])
 
     const handleUnArchive = async (id) => { archiveAndUnArchiveTheCall(id, false) }
 
-    const handleCallId = (id) =>{
+    const handleCallId = (id) => {
+        z
         if (callId == -1) {
             setCallId(id)
         } else {
@@ -19,9 +21,15 @@ const ArchivedCalls = ({ activities, archiveAndUnArchiveTheCall, reset }) => {
         }
     }
 
+
+    useEffect(() => {
+        let calls = activities?.filter((activity) => activity.is_archived == true && activity.call_type != undefined)
+        setArchivedCalls([...calls])
+    }, [activities])
+
     return <div className='screen_card'>
         <div className='archived_call_top'>
-           
+
             <div className='archived_call_text'>
                 Archived Calls
             </div>
@@ -35,7 +43,7 @@ const ArchivedCalls = ({ activities, archiveAndUnArchiveTheCall, reset }) => {
 
 
         {
-            activities?.filter((activity) => activity.is_archived == true && activity.call_type != undefined)?.map((activity) => {
+            archivedCalls?.map((activity) => {
                 return <div key={activity.id} className='call_card'>
                     <div className='call_card_flex'>
                         <div className='icons'>
@@ -84,6 +92,13 @@ const ArchivedCalls = ({ activities, archiveAndUnArchiveTheCall, reset }) => {
                 </div>
 
             })
+        }
+
+
+        {
+            archivedCalls.length == 0 && <div className='no_activities'>
+                <h1>NO ARCHIVED CALLS </h1>
+            </div>
         }
 
 

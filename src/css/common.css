@@ -78,7 +78,7 @@
 }
 
 .archive_all_button{
-    width: 60px;
+    width: 70px;
     border: 0.5px solid gray;
     display: flex;
     flex-direction: column;
@@ -143,4 +143,16 @@
 .footer_text{
     font-size: 10px;
     color: gray;
+}
+
+.no_activities{
+    /* style={{border:'0px solid black',height:"80%",display:"flex", alignItems:"center",justifyContent:"center",color:"red"}} */
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-family: monospace;
+    font-size: 15px;
+
 }

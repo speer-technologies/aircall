@@ -56,9 +56,31 @@ const App = () => {
       })
   }
 
-  const archiveAll = async () => {
-    console.log("archiveAll")
+  const archiveAllApi = async (calls) => {
+    let failedCalls = []
+    for (let i = 0; i < calls.length; i++) {
+      await axios.patch(`${baseURL}/activities/${calls[i].id}`, {
+        is_archived: true
+      }).then((res) => res).then((json) => { console.log(json) }).catch((err) => {
+        console.log(err)
+        failedCalls.push(calls[i])
+      })
+    }
 
+    return failedCalls;
+  }
+
+  const archiveAll = async () => {
+    let calls = activities?.filter((activity) => activity.is_archived == false && activity.call_type != undefined && activity.from != undefined)
+
+    let result = await archiveAllApi(calls)
+
+    while(result.length != 0){
+     result = await archiveAllApi(result)
+    }
+
+    console.log("archiveAll")
+    getAllActivities()
   }
 
 
