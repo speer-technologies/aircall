@@ -14,10 +14,15 @@ Show us what you can do in 48 hours. You will be assessed on the following param
 - React Best Practices
 - Code Readability and Maintainability
 
-## Submission
+## Submission Requirements
 After you're done with the assignment, please submit a link to the **GitHub/Bitbucket repository** (make sure it's public) with your code **AND** a deployment link where our recruiters can interact with the live version. You can use freely available tools like **Netlify, Vercel, Render, etc** to deploy your React application.
 
-**Note:** Submissions without a valid repository and deployment link will be removed from any further consideration.
+Your repository name should be the first 8 digits of a UUID. A random UUID can be generated from any site like this one: https://www.uuidgenerator.net/version4. This is to prevent malicious actors from plagiarizing your submission by searching for it on GitHub, since your repository is public.
+
+For example: Your respository name here will be `036b1c95` and the repository URL that you submit will look like: `https://github.com/<your-username>/036b1c95`
+<img width="782" alt="Screenshot 2024-01-10 at 10 07 47 PM" src="https://github.com/speer-technologies/aircall/assets/66385959/64fd4b89-e288-4e31-ad62-0949a686088a">
+
+**Note:** Submissions that fail to comply with any of the above submission requirements will be removed from any further consideration.
 
 To give you an example/reference, here's what the app could look like:
 
