@@ -22,7 +22,7 @@ Your repository name should be the first 8 digits of a UUID. A random UUID can b
 For example: Your respository name here will be `036b1c95` and the repository URL that you submit will look like: `https://github.com/<your-username>/036b1c95`
 <img width="782" alt="Screenshot 2024-01-10 at 10 07 47 PM" src="https://github.com/speer-technologies/aircall/assets/66385959/64fd4b89-e288-4e31-ad62-0949a686088a">
 
-Once done, the submission must be submitted on the following Google Form and NOT via email: https://forms.gle/itbJiaZ1TjToL45D8
+Once done, the assessment (along with other details) must be submitted on the following Google Form and NOT via email: https://forms.gle/itbJiaZ1TjToL45D8
 
 **Note:** Submissions that fail to comply with any of the above submission requirements will be removed from any further consideration.
 
