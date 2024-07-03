@@ -40,6 +40,8 @@ yarn install
 yarn start
 ```
 
+**Note**: Please make sure to run the app in Node 16.
+
 ## API documentation
 
 ### Routes
