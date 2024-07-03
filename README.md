@@ -44,9 +44,7 @@ yarn start
 
 ### Routes
 
-Here is the base URL of the API: https://cerulean-marlin-wig.cyclic.app/ <br>
-If you run into a CORS error, please prepend the base URL with this CORS Anywhere server URL: https://charming-bat-singlet.cyclic.app/ <br>
-The prepended base URL will look like this https://charming-bat-singlet.cyclic.app/https://cerulean-marlin-wig.cyclic.app/
+Here is the base URL of the API: https://aircall-backend.onrender.com <br>
 
 The API is hosted on a free server, which is why the first time you call the API it might throw an error. The server goes to sleep if there hasn't been any activity for a while, but after 30-60 seconds of making the first call, it should work as expected. Please reach out to us in case it doesn't.
 
