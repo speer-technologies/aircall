@@ -1,0 +1,25 @@
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding: 5px 5px 0 5px;
+}
+
+.tabbutton {
+    width: 48%;
+    height: 30px;
+    background-color: #AFA;
+    border-radius: 5px 5px 0px 0px;
+    border: solid 2px gray;
+}
+
+.tabbutton:hover {
+    background-color: #FFA;
+}
+
+.tabbutton:active {
+    background-color: white;
+}
+
+/* todo: add activated styling for tabs */
+/* todo: add animation for color changes */
