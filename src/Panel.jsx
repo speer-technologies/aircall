@@ -2,7 +2,6 @@ import Call from "./Call.jsx";
 const Panel = ({calldata, inbox}) => {
     return (
         <div className="panel">
-            <div className="announcements">Currently in: {inbox}</div>
             {/* todo: add un/archive button here */}
             {calldata && calldata.filter(raw => (raw.is_archived === false && inbox == "Inbox" ||
                                     raw.is_archived === true && inbox == "Archived"

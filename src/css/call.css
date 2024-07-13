@@ -1,6 +1,83 @@
 .call {
     padding: 5px;
     margin: 5px;
-    border-radius: 2px;
-    background-color: #ffa;
+    border-radius: 20px;
+    background-color: #aaffaa;
+    cursor: pointer;
+    height: 92px;
+    transition: .3s ease-in-out;
+}
+
+.call:has(.hidden) {
+    height: 36px;
+}
+
+/* base display: always visible */
+
+.basedisplay {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    border-radius:999px;
+    background-color:white;
+    padding: 5px;
+}
+
+.whoandwhen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.otherparty {
+    font-weight: bold;
+}
+
+.time {
+    font-style:italic;
+}
+
+/* expanded display: toggles on click */
+.expandeddisplay {
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 16px;
+    padding: 5px;
+    margin: 3px;
+    transition: .3s ease-in-out;
+    transform-origin: top;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+.extrainfo {
+    display:flex;
+    flex-direction: column;
+    padding: 2px 2px 2px 10px;
+    font-size: 12px;
+}
+
+.archivebutton {
+    border-radius: 13px;
+  border: 0;
+  background-color: pink;
+  padding: 10px;
+  margin: 2px;
+}
+
+.archivebutton:hover {
+    background-color: rgb(255, 149, 167);
 }

@@ -1,7 +1,7 @@
 .tabs {
     display: flex;
     justify-content: space-between;
-    background-color: lightgray;
+    background-color: #EEE;
     padding: 5px 5px 0 5px;
 }
 
@@ -11,6 +11,13 @@
     background-color: #AFA;
     border-radius: 5px 5px 0px 0px;
     border: solid 2px gray;
+    border-bottom: solid 2px #9d9;
+    transition: .2s ease-in-out;
+}
+
+.tabbutton.active {
+    border-bottom: solid 2px white;
+    background-color: white;
 }
 
 .tabbutton:hover {

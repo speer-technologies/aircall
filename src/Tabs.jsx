@@ -3,7 +3,7 @@ const Tabs = ({inbox, setInbox, tabnames}) => {
         <div className="tabs">
             {tabnames.map((tab) => {
                 return (<button 
-                className="tabbutton"
+                className={inbox === tab ? "tabbutton active" : "tabbutton"}
                 key={tab}
                 active={inbox === tab ? "active" : undefined}
                 onClick={() => setInbox(tab)}>

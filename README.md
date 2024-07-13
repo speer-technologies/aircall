@@ -71,3 +71,7 @@ The API is hosted on a free server, which is why the first time you call the API
 - **duration** - duration of a call (in seconds)
 - **is_archived** - call is archived or not
 - **call_type** - can be a `missed`, `answered` or `voicemail` call.
+
+### DougNotes
+
+- Call icons are sourced from <a target="_blank" href="https://icons8.com">Icons8</a>
