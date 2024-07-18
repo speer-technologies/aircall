@@ -2,10 +2,9 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="h-11 border-b">
+    <header className="h-[8%] border-b flex items-center justify-center">
       <svg
-        width="486px"
-        height="168px"
+        className="w-20"
         viewBox="0 0 486 168"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"

@@ -9,16 +9,17 @@
   "private": false,
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
+    "watch:css": "postcss src/input.css -o src/output.css --watch",
     "build": "webpack --mode production",
     "build:css": "postcss src/input.css -o src/output.css"
-
   },
-  
   "dependencies": {
     "autoprefixer": "^10.4.19",
+    "lucide-react": "^0.408.0",
     "postcss-cli": "^11.0.0",
     "react": "^16.3.1",
-    "react-dom": "^16.3.1"
+    "react-dom": "^16.3.1",
+    "react-hot-toast": "^2.4.1"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
