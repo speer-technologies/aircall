@@ -1085,6 +1085,11 @@
   "resolved" "https://registry.npmjs.org/@pkgjs/parseargs/-/parseargs-0.11.0.tgz"
   "version" "0.11.0"
 
+"@remix-run/router@1.18.0":
+  "integrity" "sha512-L3jkqmqoSVBVKHfpGZmLrex0lxR5SucGA0sUfFzGctehw+S/ggL9L/0NnC5mw6P8HUWpFZ3nQw3cRApjjWx9Sw=="
+  "resolved" "https://registry.npmjs.org/@remix-run/router/-/router-1.18.0.tgz"
+  "version" "1.18.0"
+
 "@sindresorhus/merge-streams@^2.1.0":
   "integrity" "sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg=="
   "resolved" "https://registry.npmjs.org/@sindresorhus/merge-streams/-/merge-streams-2.3.0.tgz"
@@ -1591,6 +1596,13 @@
   "integrity" "sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw=="
   "resolved" "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.3.0.tgz"
   "version" "2.3.0"
+
+"bindings@^1.5.0":
+  "integrity" "sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ=="
+  "resolved" "https://registry.npmjs.org/bindings/-/bindings-1.5.0.tgz"
+  "version" "1.5.0"
+  dependencies:
+    "file-uri-to-path" "1.0.0"
 
 "bluebird@^3.5.5":
   "integrity" "sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg=="
@@ -3159,6 +3171,19 @@
   "resolved" "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   "version" "1.0.0"
 
+"fsevents@^1.2.7":
+  "integrity" "sha512-oWb1Z6mkHIskLzEJ/XWX0srkpkTQ7vaopMQkyaEIoq0fmtFVxOthb8cCxeT+p3ynTdkk/RZwbgG4brR5BeWECw=="
+  "resolved" "https://registry.npmjs.org/fsevents/-/fsevents-1.2.13.tgz"
+  "version" "1.2.13"
+  dependencies:
+    "bindings" "^1.5.0"
+    "nan" "^2.12.1"
+
+"fsevents@~2.3.2":
+  "integrity" "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw=="
+  "resolved" "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz"
+  "version" "2.3.3"
+
 "function-bind@^1.1.2":
   "integrity" "sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA=="
   "resolved" "https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz"
@@ -4493,6 +4518,11 @@
     "object-assign" "^4.0.1"
     "thenify-all" "^1.0.0"
 
+"nan@^2.12.1":
+  "integrity" "sha512-bk3gXBZDGILuuo/6sKtr0DQmSThYHLtNCdSdXk9YkxD/jK6X2vmCyyXBBxyqZ4XcnzTyYEAThfX3DCEnLf6igw=="
+  "resolved" "https://registry.npmjs.org/nan/-/nan-2.20.0.tgz"
+  "version" "2.20.0"
+
 "nanoid@^3.3.7":
   "integrity" "sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g=="
   "resolved" "https://registry.npmjs.org/nanoid/-/nanoid-3.3.7.tgz"
@@ -5289,7 +5319,7 @@
     "iconv-lite" "0.4.24"
     "unpipe" "1.0.0"
 
-"react-dom@^16.3.1", "react-dom@>=16":
+"react-dom@^16.3.1", "react-dom@>=16", "react-dom@>=16.8":
   "integrity" "sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-16.14.0.tgz"
   "version" "16.14.0"
@@ -5311,7 +5341,22 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
-"react@^16.14.0", "react@^16.3.1", "react@^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0", "react@>=16":
+"react-router-dom@^6.25.1":
+  "integrity" "sha512-0tUDpbFvk35iv+N89dWNrJp+afLgd+y4VtorJZuOCXK0kkCWjEvb3vTJM++SYvMEpbVwXKf3FjeVveVEb6JpDQ=="
+  "resolved" "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.25.1.tgz"
+  "version" "6.25.1"
+  dependencies:
+    "@remix-run/router" "1.18.0"
+    "react-router" "6.25.1"
+
+"react-router@6.25.1":
+  "integrity" "sha512-u8ELFr5Z6g02nUtpPAggP73Jigj1mRePSwhS/2nkTrlPU5yEkH1vYzWNyvSnSzeeE2DNqWdH+P8OhIh9wuXhTw=="
+  "resolved" "https://registry.npmjs.org/react-router/-/react-router-6.25.1.tgz"
+  "version" "6.25.1"
+  dependencies:
+    "@remix-run/router" "1.18.0"
+
+"react@^16.14.0", "react@^16.3.1", "react@^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0", "react@>=16", "react@>=16.8":
   "integrity" "sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
   "version" "16.14.0"
