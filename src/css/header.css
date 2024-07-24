@@ -10,3 +10,57 @@ header svg {
   display: block;
   width: 100%; height: 100%;
 }
+
+.activity-feed-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.activity-feed-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.call-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.call-item {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 8px;
+}
+
+.call-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.call-icon {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.call-icon.inbound {
+  background-color: #4caf50;
+}
+
+.call-icon.outbound {
+  background-color: #f44336;
+}
+
+.call-info {
+  font-size: 14px;
+  color: #333;
+}
